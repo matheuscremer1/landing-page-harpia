@@ -1,0 +1,107 @@
+@charset "UTF-8"
+*
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html body{
+    margin: 0px;
+    padding: 0px;
+}
+section#img{
+    background-image: url(../imagens/1.png);
+    height: 100vh;
+    width: 100%;
+}
+div#banner{
+    background-color: rgba(161, 10, 10, 0.725);
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    width: 600px;
+    position: relative;
+}
+div#logo{
+    background-image: url(../imagens/logo1.png);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    left: 33%;
+    top: 20px;
+}
+h1{
+    margin: 0px;
+    position: absolute;
+    left: 7%;
+    top: 250px;
+    font-size: 5.5em;
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+    
+}
+p#curso{
+    position: absolute;
+    left: 7%;
+    top: 220px;
+    margin: 0px;
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+p#p1{
+    position: absolute;
+    top: 370px;
+    width: 510px;
+    margin-left: 7%;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+section{
+    height: 300px;
+    width: 100%;
+}
+div#info{
+    background-image: url(../imagens/banner2.png);
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    box-shadow: inset 2px 2px 10px black;
+}
+h2{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: yellow;
+    text-shadow: 1px 1px 5px red;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;   
+}
+p#p2{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 20px;
+    width: 70%;
+    font-size: 1.4em;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+footer{
+    background-color: black;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    
+}
+footer > p{
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    color: white;
+    font-size: 1.3em;
+}
+span{
+    padding: 5px;
+}
