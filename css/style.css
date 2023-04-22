@@ -10,13 +10,13 @@ html body{
 }
 section#img{
     background-image: url(../imagens/1.png);
-    height: 100vh;
+    height: 657px;
     width: 100%;
 }
 div#banner{
     background-color: rgba(161, 10, 10, 0.725);
     backdrop-filter: blur(2px);
-    height: 100vh;
+    height: 657px;
     width: 600px;
     position: relative;
 }
