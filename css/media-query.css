@@ -6,6 +6,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 480px){
     section#img{
+        background-size: cover;
         background-position: center;
     }
     div#banner{
